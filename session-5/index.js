@@ -44,31 +44,45 @@ function check_evening_class(day) {
   }
 }
 
-//Write a function that takes in a name, use a switch statement 
-//if name “Harjeet” return “You are an instructor” 
-//if name “Samuel” return “You are an instructor” 
-//if name “Sarah” return “course corindator”  
-//if name “Charlene” return “You are the founder” 
+//Write a function that takes in a name, use a switch statement
+//if name “Harjeet” return “You are an instructor”
+//if name “Samuel” return “You are an instructor”
+//if name “Sarah” return “course corindator”
+//if name “Charlene” return “You are the founder”
 //default “You are a member of the cbf community”
 function your_name(name) {
-    switch (name) {
-        case "Harjeet":
-            return "You are an instructor";
-        case "Samuel":
-            return "You are an instructor";
-        case "Sarah":
-            return "You are the course corindator";
-        case "Charlene":
-            return "You are the founder"
-        
-        default:
-            return "You are a member of the cbf community"
-        
+  switch (name) {
+    case "Harjeet":
+      return "You are an instructor";
+    case "Samuel":
+      return "You are an instructor";
+    case "Sarah":
+      return "You are the course corindator";
+    case "Charlene":
+      return "You are the founder";
 
-    }
+    default:
+      return "You are a member of the cbf community";
+  }
 }
 
-console.log(your_name("Harjeet"))
+console.log(your_name("Harjeet"));
 
 
-    
+function calculator(num_1,num_2,operator) {
+    switch (operator) {
+        case "/" :
+            return num_1 / num_2;
+        case "*":
+            return num_1 * num_2;
+        case "+":
+            return num_1 + num_2;
+        case "-":
+            return num_1 - num_2;
+        default:
+            return "ERROR"
+    }
+
+}
+
+console.log(calculator(6,3,"/"))
