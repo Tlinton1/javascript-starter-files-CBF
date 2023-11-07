@@ -43,3 +43,32 @@ function check_evening_class(day) {
       return "Its the weekend!";
   }
 }
+
+//Write a function that takes in a name, use a switch statement 
+//if name “Harjeet” return “You are an instructor” 
+//if name “Samuel” return “You are an instructor” 
+//if name “Sarah” return “course corindator”  
+//if name “Charlene” return “You are the founder” 
+//default “You are a member of the cbf community”
+function your_name(name) {
+    switch (name) {
+        case "Harjeet":
+            return "You are an instructor";
+        case "Samuel":
+            return "You are an instructor";
+        case "Sarah":
+            return "You are the course corindator";
+        case "Charlene":
+            return "You are the founder"
+        
+        default:
+            return "You are a member of the cbf community"
+        
+
+    }
+}
+
+console.log(your_name("Harjeet"))
+
+
+    
