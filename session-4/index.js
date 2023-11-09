@@ -44,6 +44,32 @@ function biography(person) {
 console.log(biography(personA));
 console.log(biography(personB));
 
+let animals = ["Bear", "Tiger", "Parrot", "Dog", "Lizzard", "Horse", "Monkey"];
+
+console.log(animals);
+console.log(animals.push("Elephant"));
+console.log(animals);
+console.log(animals.pop());
+console.log(animals);
+
+let friendsNames = [
+  "Toby",
+  "Rebecca",
+  "Cindy",
+  "Lily",
+  "Sandra",
+  "Michael",
+  "Anthony",
+  "George",
+  "Nicola",
+  "Zion",
+];
+
+console.log(friendsNames.length);
+
+console.log(friendsNames.sort());
+console.log(friendsNames.sort().reverse());
+
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
