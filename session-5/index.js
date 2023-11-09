@@ -68,21 +68,19 @@ function your_name(name) {
 
 console.log(your_name("Harjeet"));
 
-
-function calculator(num_1,num_2,operator) {
-    switch (operator) {
-        case "/" :
-            return num_1 / num_2;
-        case "*":
-            return num_1 * num_2;
-        case "+":
-            return num_1 + num_2;
-        case "-":
-            return num_1 - num_2;
-        default:
-            return "ERROR"
-    }
-
+function calculator(num_1, num_2, operator) {
+  switch (operator) {
+    case "/":
+      return num_1 / num_2;
+    case "*":
+      return num_1 * num_2;
+    case "+":
+      return num_1 + num_2;
+    case "-":
+      return num_1 - num_2;
+    default:
+      return "ERROR";
+  }
 }
 
-console.log(calculator(6,3,"/"))
+console.log(calculator(6, 3, "/"));
